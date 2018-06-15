@@ -24,8 +24,8 @@ public class WebViewDialog extends Dialog {
     private Context mContext;
     private CommWebView webView;
     private int screenWidth, screenHeight;
-    private int margin_left_right_dp = 30;
-    private int margin_top_bottom_dp = 65;
+    private int margin_left_right_dp = 0;
+    private int margin_top_bottom_dp = 0;
     private OnDialogListener onDialogListener;
     /**
      * 时候播放动画
